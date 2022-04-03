@@ -1,0 +1,374 @@
+@font-face {
+    font-family: VazirN;
+    src: url('../fonts/vazir/Vazir-Medium-FD.eot');
+    src: url('../fonts/vazir/Vazir-Medium-FD.eot?#iefix') format('FontName-opentype'),
+         url('../fonts/vazir/Vazir-Medium-FD.woff') format('woff'),
+         url('../fonts/vazir/Vazir-Medium-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: VazirB;
+    src: url('../fonts/vazir/Vazir-Bold-FD.eot');
+    src: url('../fonts/vazir/Vazir-Bold-FD.eot?#iefix') format('FontName-opentype'),
+         url('../fonts/vazir/Vazir-Bold-FD.woff') format('woff'),
+         url('../fonts/vazir/Vazir-Bold-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: VazirL;
+    src: url('../fonts/vazir/Vazir-Light-FD.eot');
+    src: url('../fonts/vazir/Vazir-Light-FD.eot?#iefix') format('FontName-opentype'),
+         url('../fonts/vazir/Vazir-Light-FD.woff') format('woff'),
+         url('../fonts/vazir/Vazir-Light-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.vazirN{
+    font-family: VazirN, Tahoma, sans-serif;
+}
+.vazirB{
+    font-family: VazirB, Tahoma, sans-serif;
+}
+.vazirL{
+    font-family: VazirL, Tahoma, sans-serif;
+}
+.p-component{
+    font-family: VazirN, Tahoma, sans-serif !important;
+}
+/* ---------------------------------------------- Inputs -------------------------------- */
+.p-inputgroup-addon:first-child, .p-inputgroup button:first-child, .p-inputgroup input:first-child, .p-inputgroup > .p-inputwrapper:first-child > .p-component, .p-inputgroup > .p-inputwrapper:first-child > .p-component > .p-inputtext {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.p-inputgroup-addon:last-child, .p-inputgroup button:last-child, .p-inputgroup input:last-child, .p-inputgroup > .p-inputwrapper:last-child > .p-component, .p-inputgroup > .p-inputwrapper:last-child > .p-component > .p-inputtext {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+/* ---------------------------------------------- MultiSelect -------------------------------- */
+.p-multiselect .p-multiselect-panel {
+    overflow: inherit !important;
+    overflow-x:hidden;
+}
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item .p-checkbox {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-checkbox {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-close {
+    margin-right: 0.5rem !important;
+    margin-left: 0 !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container {
+    direction: ltr !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-inputtext {
+    direction: rtl !important;
+    padding-left: 2rem !important;
+    padding-right:  0.75rem !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-multiselect-filter-icon {
+    left: 0.75rem !important;
+    right: auto !important;
+    width: auto;
+}
+.p-datatable .p-datatable-gridlines .p-paginator-bottom {
+    direction: ltr !important;
+}
+.p-button .p-button-icon-left {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-dialog.p-confirm-dialog .p-confirm-dialog-message {
+    margin-right: 1rem !important;
+    margin-left: 0 !important;
+}
+.p-toast .p-toast-message .p-toast-message-content .p-toast-message-text {
+    margin: 0 1rem 0 0 !important;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+    padding: 0.25rem 0.75rem !important;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
+    margin-right: 0.5rem;
+}
+.p-menubar .p-menuitem-link .p-menuitem-icon {
+    margin-left: 0.5rem;
+}
+.p-menubar .p-menubar-custom, .p-menubar .p-menubar-end {
+    margin-right: auto !important;
+    justify-self: flex-end;
+}
+.p-sidebar .p-sidebar-header {
+    padding: 0 !important;
+}
+.p-sidebar .p-sidebar-content {
+    padding: 0 !important;
+}
+.p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon {
+    margin-left: 0.5rem !important;
+}
+.pi-chevron-right:before {
+    content: "\e900" !important;
+}
+.pi-angle-left:before {
+    content: "\e930";
+}
+/* ------------------------------------------------------ Paginator */
+.pi-angle-left:before {
+    content: "\e932" !important;
+}
+.pi-angle-right:before {
+    content: "\e931" !important;
+}
+.pi-angle-double-left:before {
+    content: "\e92e" !important;
+}
+.pi-angle-double-right:before {
+    content: "\e92d" !important;
+}
+/* //-------------------------------------------------------- menu basic*/
+.p-menu .p-menuitem-link .p-menuitem-text {
+    margin-right: 10px !important;
+}
+/* //-------------------------------------------------------- select button*/
+.p-buttonset .p-button:last-of-type {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 2px !important;
+    border-bottom-left-radius: 2px !important;
+}
+.p-buttonset .p-button:first-of-type {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+}
+/* ------------------------------------------------------------ Radio button */
+.p-radiobutton-label {
+    margin-right: 0.5rem !important;
+    margin-left: 0 !important;
+}
+/* ------------------------------------------------------------ Drop Down */
+.p-dropdown .p-inputtext {
+    font-family: VazirN, Tahoma, sans-serif;
+}
+/* ------------------------------------------------------------ Message */
+.p-message .p-message-icon {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-message-close.p-link {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+/* ------------------------------------------------------------ Steps */
+.p-steps .p-steps-item .p-menuitem-link .p-steps-title {
+    padding-right: 0.5rem !important;
+}
+.p-button .p-button-icon-left {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+/* ---------------------------------- Quill Editor ---------------------------------- */
+.ql-editor{
+    direction: rtl;
+    text-align: right !important;
+}
+.ql-align-right{
+    direction: ltr;
+    text-align: left !important;
+}
+/* ---------------------------------- Table Filter Input Number ---------------------------------- */
+.p-inputnumber-buttons-stacked .p-inputnumber-input {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.p-inputnumber-buttons-stacked .p-button.p-inputnumber-button-up {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.p-inputnumber-buttons-stacked .p-button.p-inputnumber-button-down {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 4px !important;
+}
+/* ------------------------------------------- Prime Flex Changes ---------------------------------- */
+.col-offset-3 {
+    margin-right: 25% !important;
+}
+@media screen and (min-width: 992px){
+    .lg\:col-offset-3 {
+        margin-right: 25% !important;
+    }
+}
+.col-offset-4 {
+    margin-right: 33.3333% !important;
+}
+@media screen and (min-width: 992px){
+    .lg\:col-offset-4 {
+        margin-right: 33.3333% !important;
+    }
+}
+/* //-------------------------------------------------------- ***** Current app***** -----  */
+
+.p-speeddial-direction-up .p-speeddial-list {
+    position: fixed;
+    bottom: 5rem;
+}
+.p-speeddial-action {
+    background-color: #3f51b5 !important;
+}
+.p-speeddial-button.p-button.p-button-icon-only {
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+}
+.p-speeddial-direction-up .p-button-icon{
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+}
+.EmokPageViewRoleList .p-tabview .p-tabview-nav {
+    display: none !important;
+}
+.roleNameBox:hover{
+    background-color: var(--surface-100);
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+/* For PrimeNg */
+.p-sortable-column-icon{
+    position: relative;
+    bottom: 3px;
+}
+.emok-signup-sm .p-steps ul {
+    flex-direction: column !important;
+}
+@media screen and (min-width: 640px){
+    .emok-signup-sm .p-steps ul {
+        flex-direction: row !important;
+    }
+}
+/* End For PrimeNg */
+*{
+    font-family: VazirN, Tahoma, sans-serif;
+}
+body{
+    background-image: url('../img/back-style.png');
+}
+input{
+    width: 100% !important;
+}
+
+
+
+/* //------------------------------------- My Red Colors --------------------------------// */
+.bg-red-50{
+    background-color: #ffe6e6 !important;
+}
+.bg-red-100{
+    background-color: #ffb3b3 !important;
+}
+.bg-red-200{
+    background-color: #ff8080 !important;
+}
+.bg-red-300{
+    background-color: #ff4d4d !important;
+}
+.bg-red-400{
+    background-color: #ff1a1a !important;
+}
+.bg-red-500{
+    background-color: #ff0000 !important;
+}
+.bg-red-600{
+    background-color: #e60000 !important;
+}
+.bg-red-700{
+    background-color: #b30000 !important;
+}
+.bg-red-800{
+    background-color: #800000 !important;
+}
+.bg-red-900{
+    background-color: #4d0000 !important;
+}
+.text-red-50{
+    color: #ffe6e6 !important;
+}
+.text-red-100{
+    color: #ffb3b3 !important;
+}
+.text-red-200{
+    color: #ff8080 !important;
+}
+.text-red-300{
+    color: #ff4d4d !important;
+}
+.text-red-400{
+    color: #ff1a1a !important;
+}
+.text-red-500{
+    color: #ff0000 !important;
+}
+.text-red-600{
+    color: #e60000 !important;
+}
+.text-red-700{
+    color: #b30000 !important;
+}
+.text-red-800{
+    color: #800000 !important;
+}
+.text-red-900{
+    color: #4d0000 !important;
+}
+.border-red-50{
+    border-color: #ffe6e6 !important;
+}
+.border-red-100{
+    border-color: #ffb3b3 !important;
+}
+.border-red-200{
+    border-color: #ff8080 !important;
+}
+.border-red-300{
+    border-color: #ff4d4d !important;
+}
+.border-red-400{
+    border-color: #ff1a1a !important;
+}
+.border-red-500{
+    border-color: #ff0000 !important;
+}
+.border-red-600{
+    border-color: #e60000 !important;
+}
+.border-red-700{
+    border-color: #b30000 !important;
+}
+.border-red-800{
+    border-color: #800000 !important;
+}
+.border-red-900{
+    border-color: #4d0000 !important;
+}
